@@ -1,4 +1,4 @@
-# Baby Shower — Patricia & Alex 🍼
+# Baby Shower — Amelia 🍼
 
 Sitio de invitación digital para el baby shower de revelación de género de Patricia y Alex. Incluye confirmación de asistencia y lista de regalos interactiva.
 

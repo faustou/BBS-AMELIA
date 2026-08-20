@@ -1,5 +1,4 @@
 import HeroSection from '../components/HeroSection'
-import InvitationSection from '../components/InvitationSection'
 import EventInfoSection from '../components/EventInfoSection'
 import RSVPForm from '../components/RSVPForm'
 import GiftList from '../components/GiftList'
