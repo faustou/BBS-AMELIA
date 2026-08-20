@@ -64,7 +64,7 @@ function AdminLogin({ onLogin }: { onLogin: () => void }) {
       <div className={styles.loginCard}>
         <div className={styles.loginIcon}>🔒</div>
         <h1 className={styles.loginTitle}>Panel Admin</h1>
-        <p className={styles.loginSubtitle}>Solo para Patricia & Alex</p>
+        <p className={styles.loginSubtitle}>Solo para Naza y Cele</p>
 
         <form onSubmit={handleSubmit}>
           <div className={styles.loginField}>
@@ -653,7 +653,7 @@ export default function Admin() {
       <header className={styles.header}>
         <div className={styles.headerLeft}>
           <span className={styles.headerTitle}>Panel Admin</span>
-          <span className={styles.headerBadge}>Patricia & Alex</span>
+          <span className={styles.headerBadge}>Amelia</span>
         </div>
         <button className={styles.logoutBtn} onClick={handleLogout}>Cerrar sesión</button>
       </header>

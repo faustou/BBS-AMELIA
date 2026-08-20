@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import styles from './EventInfoSection.module.css'
+import BearSVG from './BearSVG'
 
 function CalendarIcon() {
   return (
@@ -65,7 +66,7 @@ export default function EventInfoSection() {
               <CalendarIcon />
             </div>
             <p className={styles.cardLabel}>Fecha</p>
-            <p className={styles.cardValue}>Domingo<br />24 de Mayo</p>
+            <p className={styles.cardValue}>Domingo<br />4 de Octubre</p>
           </div>
 
           <div className={styles.card}>
@@ -73,7 +74,7 @@ export default function EventInfoSection() {
               <ClockIcon />
             </div>
             <p className={styles.cardLabel}>Horario</p>
-            <p className={styles.cardValue}>14:00<br />a 17:00 hs</p>
+            <p className={styles.cardValue}>14:00<br />a 18:00 hs</p>
           </div>
 
           <div className={styles.card}>
@@ -83,16 +84,15 @@ export default function EventInfoSection() {
             <p className={styles.cardLabel}>Lugar</p>
             <a
               className={styles.cardValue + ' ' + styles.cardAddressLink}
-              href="https://www.google.com.ar/maps/place/Av.+Ing.+Eduardo+Madero+2355,+B1669CLB+Del+Viso,+Provincia+de+Buenos+Aires/@-34.4592789,-58.8075223,20.5z/data=!4m6!3m5!1s0x95bc994ab44764d1:0xc7254d2be4a1b491!8m2!3d-34.4593734!4d-58.8072488!16s%2Fg%2F11ykhv7n4q?hl=es&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
+              href="https://maps.app.goo.gl/krdNrCPLtYGqFtxXA"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Av. Ing. Eduardo Madero 2355, Del Viso
+              San Roque 2037 Jose Leon Suarez
             </a>
             <a
               className={styles.mapsButton}
-              href="https://www.google.com.ar/maps/place/Av.+Ing.+Eduardo+Madero+2355,+B1669CLB+Del+Viso,+Provincia+de+Buenos+Aires/@-34.4592789,-58.8075223,20.5z/data=!4m6!3m5!1s0x95bc994ab44764d1:0xc7254d2be4a1b491!8m2!3d-34.4593734!4d-58.8072488!16s%2Fg%2F11ykhv7n4q?hl=es&entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
+              href="https://maps.app.goo.gl/krdNrCPLtYGqFtxXA"
               rel="noopener noreferrer"
             >
               <MapsLinkIcon />
@@ -101,6 +101,7 @@ export default function EventInfoSection() {
             <p className={styles.cardSub}>Te esperamos con mucho amor</p>
           </div>
         </div>
+        <BearSVG />
       </div>
     </section>
   )

@@ -6,13 +6,13 @@ import styles from './GiftList.module.css'
 
 export default function GiftList() {
   const [gifts, setGifts] = useState<Gift[]>([])
-  const [aliasMp, setAliasMp] = useState('[ALIAS A COMPLETAR]')
+  const [aliasMp, setAliasMp] = useState('BienvenidaAmelia')
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [copied, setCopied] = useState(false)
 
   const handleCopyAlias = async () => {
-    await navigator.clipboard.writeText('FAMILIA.BABY')
+    await navigator.clipboard.writeText('BienvenidaAmelia')
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
   }
@@ -80,7 +80,7 @@ export default function GiftList() {
               Podés hacernos un aporte a este alias
             </p>
             <button className={styles.aliasBadge} onClick={handleCopyAlias} title="Copiar alias">
-              <span className={styles.aliasBadgeText}>FAMILIA.BABY</span>
+              <span className={styles.aliasBadgeText}>BienvenidaAmelia</span>
               <span className={styles.aliasBadgeHeart}>💕</span>
               <span className={styles.aliasCopyIcon}>
                 {copied ? (
@@ -96,7 +96,7 @@ export default function GiftList() {
               </span>
             </button>
             {copied && <p className={styles.aliasCopiedMsg}>¡Alias copiado!</p>}
-            <p className={styles.aliasOwner}>a nombre de Alex Emanuel Frattesi · Mercado Pago</p>
+            <p className={styles.aliasOwner}>a nombre de Nazareno Ivan Rossi · Mercado Pago</p>
             <p className={styles.aliasCardBody}>
               Con tu ayuda vamos a poder comprar pañales, medicamentos, ropita,
               productos de higiene, mantitas y otras cositas para el bebé.

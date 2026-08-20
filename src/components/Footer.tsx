@@ -7,13 +7,13 @@ export default function Footer() {
       <div className={styles.bear}>
         <BearSVG />
       </div>
-      <p className={styles.names}>Patricia & Alex</p>
+      <p className={styles.names}>Amelia</p>
       <div className={styles.divider} />
       <p className={styles.tagline}>
         "Con mucho amor te esperamos para compartir
         el momento más especial de nuestras vidas"
       </p>
-      <p className={styles.copy}>Baby Shower · Domingo 24 de Mayo 2026</p>
+      <p className={styles.copy}>Baby Shower · Domingo 4 de Octubre 2026</p>
     </footer>
   )
 }

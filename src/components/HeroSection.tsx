@@ -10,23 +10,22 @@ export default function HeroSection() {
         ))}
       </div>
 
-      <FloatingBalloons />
-
       {/* Decorative question marks */}
       <div className={styles.questionMarks} aria-hidden="true">
-        <span className={styles.qMark}>?</span>
-        <span className={styles.qMark}>?</span>
-        <span className={styles.qMark}>?</span>
-        <span className={styles.qMark}>?</span>
+        <span className={styles.qMark}>🍓</span>
+        <span className={styles.qMark}>🍓</span>
+        <span className={styles.qMark}>🍓</span>
+        <span className={styles.qMark}>🍓</span>
       </div>
 
       <div className={styles.content}>
         <p className={styles.eyebrow}>Un nuevo amor llega al mundo</p>
         <h1 className={styles.title}>
-          MUY PRONTO LLEGARÁ<br />
-          UNA <em>TIERNA SONRISA</em><br />
-          PARA LLENAR DE AMOR<br />
-          NUESTRO HOGAR...
+          BIENVENIDA, AMELIA<br />
+          ESTAMOS MUY FELICES Y ANSIOSOS POR TU LLEGADA.<br />
+          QUEREMOS COMPARTIR CON NUESTROS SERES QUERIDOS<br />
+          UN DÍA MUY ESPECIAL PARA <br />
+          CELEBRAR QUE CADA VEZ FALTA MENOS PARA CONOCERTE.
         </h1>
       </div>
 

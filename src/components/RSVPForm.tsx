@@ -72,7 +72,7 @@ export default function RSVPForm() {
         {formState === 'success' ? (
           <div className={styles.successMessage}>
             <div className={styles.successIcon}>🎉</div>
-            <p className={styles.successTitle}>¡Nos vemos el 24!</p>
+            <p className={styles.successTitle}>¡Nos vemos el 4 de Octubre!</p>
             <p className={styles.successText}>
               ¡Gracias por confirmar! Estamos muy emocionados de compartir este momento con vos.
             </p>
