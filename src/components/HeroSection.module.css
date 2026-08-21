@@ -95,13 +95,13 @@ background:
   background-clip: text;
   user-select: none;
   line-height: 1;
-  opacity: 0.18;
+  opacity: 0.38;
 }
 
-.qMark:nth-child(1) { font-size: clamp(180px, 35vw, 320px); top: -60px;    left: -50px;  transform: rotate(-15deg); opacity: 0.22; }
-.qMark:nth-child(2) { font-size: clamp(120px, 22vw, 200px); top: 15%;      right: -30px; transform: rotate(12deg);  opacity: 0.18; }
-.qMark:nth-child(3) { font-size: clamp(150px, 28vw, 240px); bottom: -80px; left: 25%;    transform: rotate(-8deg);  opacity: 0.14; }
-.qMark:nth-child(4) { font-size: clamp(80px,  15vw, 130px); bottom: 20%;   right: 8%;    transform: rotate(20deg);  opacity: 0.16; }
+.qMark:nth-child(1) { font-size: clamp(180px, 35vw, 320px); top: -60px;    left: -50px;  transform: rotate(-15deg); opacity: 0.52; }
+.qMark:nth-child(2) { font-size: clamp(120px, 22vw, 200px); top: 15%;      right: -30px; transform: rotate(12deg);  opacity: 0.58; }
+.qMark:nth-child(3) { font-size: clamp(150px, 28vw, 240px); bottom: -80px; left: 25%;    transform: rotate(-8deg);  opacity: 0.54; }
+.qMark:nth-child(4) { font-size: clamp(80px,  15vw, 130px); bottom: 20%;   right: 8%;    transform: rotate(20deg);  opacity: 0.56; }
 
 /* ─── Content ─────────────────────────────────────────── */
 .content {
@@ -203,7 +203,7 @@ background:
 
   .title {
     font-size: clamp(1.9rem, 8.5vw, 2.6rem);
-    line-height: 1.25;
+    line-height: 1;
     letter-spacing: 0;
     text-align: left;
     margin-bottom: 2rem;
@@ -211,10 +211,10 @@ background:
 
   /* Emojis decorativos: mucho más chicos y contenidos,
      acomodados en las esquinas para no tapar el texto */
-  .qMark:nth-child(1) { font-size: 70px; top: -10px;   left: -15px;  transform: rotate(-15deg); opacity: 0.18; }
-  .qMark:nth-child(2) { font-size: 60px; top: 4%;      right: -12px; bottom: auto; transform: rotate(12deg);  opacity: 0.16; }
-  .qMark:nth-child(3) { font-size: 65px; bottom: 10%;  left: -18px;  top: auto; transform: rotate(-8deg);  opacity: 0.14; }
-  .qMark:nth-child(4) { font-size: 55px; bottom: -8px; right: -10px; top: auto; transform: rotate(20deg);  opacity: 0.16; }
+  .qMark:nth-child(1) { font-size: 70px; top: -10px;   left: -15px;  transform: rotate(-15deg); opacity: 0.38; }
+  .qMark:nth-child(2) { font-size: 60px; top: 4%;      right: -12px; bottom: auto; transform: rotate(12deg);  opacity: 0.56; }
+  .qMark:nth-child(3) { font-size: 65px; bottom: 10%;  left: -18px;  top: auto; transform: rotate(-8deg);  opacity: 0.54; }
+  .qMark:nth-child(4) { font-size: 55px; bottom: -8px; right: -10px; top: auto; transform: rotate(20deg);  opacity: 0.56; }
 
   .balloon {
     opacity: 0.3;
