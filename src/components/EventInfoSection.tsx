@@ -57,7 +57,7 @@ export default function EventInfoSection() {
   return (
     <section className={`${styles.section} section-animate`} id="evento" ref={ref}>
       <div className={styles.inner}>
-        <p className={styles.eyebrow}>Nos vemos en</p>
+        <p className={styles.eyebrow}>Los papis Cele y Naza te invitan a</p>
         <h2 className={styles.title}>El Gran Día</h2>
 
         <div className={styles.cards}>
